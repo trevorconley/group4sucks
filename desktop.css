@@ -1,6 +1,39 @@
 ﻿body{
 	background: url(background_1.png);
+	font-family: Arial, Helvetica, sans-serif;
 }
-.test1{
-	margin: 50px;
+.logo{
+	margin-top: -10px;
+}
+.banner{
+	float: right;
+	color: white;
+	margin-top: 40px;
+}
+a.ban:link{
+	color: white;
+	text-decoration: none;
+}
+a.ban:hover{
+	text-decoration: underline;
+}
+a.ban:visited{
+	color: white;
+}
+.navbar{
+	color: white;
+	margin-top: -5px;
+	margin-right: 5%;
+}
+a.navbar:link{
+	color: white;
+	text-decoration:none;
+	font-size: large;
+}
+
+a.navbar:visited{
+	color:white;
+}
+.statusbox{
+	float: left;
 }
