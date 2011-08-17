@@ -4,44 +4,46 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <title>TwitterHound Home</title>
+<link rel=StyleSheet href="desktop.css" type="text/css" media=screen />
 </head>
 
 <body>
-	<h1>This is the Tweet Writer home page, this H1 will not show outside of this demo HTML5.</h1>
-	<div class="nav">
-		Username
+	<img class="logo" src="logo_1.png" alt="logo" />
+	<div class="banner">
+		Welcome User
 		<!-- This will be top right -->
-		<a href="myAccount.html">My Account</a>
-		<a href="logOut.html">Logout</a>
-		<nav>
-			<!-- Links for pending tweets, messages, etc. -->
-			<a href="penReq.html">Pending Tweets</a>
-			<a href="mess.html">Messages</a>
-		</nav>
+		<a class="ban" href="myAccount.html">My Account</a>
+		<a class="ban" href="logOut.html">Logout</a>
 	</div>
-	
-	<div class="tweetInput">
-		<form>
-			<textarea rows="10" cols="30" name="tweet" placeholder="Enter Tweet here." required></textarea>
-			<input type="submit" value="Submit For Approval" onclick="test()" />
-		</form>
-	</div>
-	<div class="company_feed">
-		<!-- this will be on the right hand side, one tweet wide, top to bottom -->
-		<!-- This will only display recent tweets from the company -->
-		<h3>Company's Twitter feed here</h3>
-		<img src="twitter_1.png" width="250px" height="500px" alt="first pic of twitter" />
-	</div>
-	<div class="public_feed">
-		<!-- Displayed as is on regular twitter site, this can be narrowed down by who tweeted it, when, date range, etc. -->
-		<a href="startEndDate.html">Start Date</a>
-		<a href="startEndDate.html">End Date</a>
-		<a href="byUser.html">By User</a>
-		<a href="byCat.html">By Category</a>
-		<h3>Full Custom Twitter feed here</h3>
-		<img src="twitter_1.png" width="40%" height="300" alt="first pic of twitter" />
-	</div>
-	
+	<nav class="navbar">
+		<!-- Links for admin, requests, Queue, etc. -->
+		<a class="navbar" href="pending.html">Pending</a>
+		<a class="navbar" href="mess.php">Messages</a>
+	</nav>
+	<section id="content">
+		<h1>This is the Tweet Writer home page, this H1 will not show outside of this demo HTML5.</h1>	
+		<div class="tweetInput">
+			<form>
+				<textarea rows="10" cols="30" name="tweet" placeholder="Enter Tweet here." required></textarea>
+				<input type="submit" value="Submit For Approval" onclick="test()" />
+			</form>
+		</div>
+		<div class="company_feed">
+			<!-- this will be on the right hand side, one tweet wide, top to bottom -->
+			<!-- This will only display recent tweets from the company -->
+			<h3>Company's Twitter feed here</h3>
+			<img src="twitter_1.png" width="250px" height="500px" alt="first pic of twitter" />
+		</div>
+		<div class="public_feed">
+			<!-- Displayed as is on regular twitter site, this can be narrowed down by who tweeted it, when, date range, etc. -->
+			<a href="startEndDate.html">Start Date</a>
+			<a href="startEndDate.html">End Date</a>
+			<a href="byUser.html">By User</a>
+			<a href="byCat.html">By Category</a>
+			<h3>Full Custom Twitter feed here</h3>
+			<img src="twitter_1.png" width="40%" height="300" alt="first pic of twitter" />
+		</div> 
+	</section>	
 <!-- ############################################## -->
 <!-- ############################################## -->
 	

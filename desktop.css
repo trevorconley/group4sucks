@@ -1,6 +1,22 @@
 ﻿body{
-	background: url(background_1.png);
+	background: url(background_2.png) no-repeat;
 	font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+	border-radius: 25px;
+	color: white;
+	background-color: #2E2E2D;
+	padding: 10px;
+	padding-left: 25px;
+}
+#content{
+	background-color: #2E2E2D; 
+	margin: 2%;
+	padding: 2%;
+	padding-top: 1%;
+	border-radius: 25px;
+	border: 2px solid #890708;
+	color: white;
 }
 .logo{
 	margin-top: -10px;
@@ -36,4 +52,8 @@ a.navbar:visited{
 }
 .statusbox{
 	float: left;
+}
+.company_feed{
+	float: right;
+	margin-top: -200px;
 }

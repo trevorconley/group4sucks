@@ -4,7 +4,7 @@
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>TwitterHound: Home</title>
-<link rel=StyleSheet href="desktop.css" type="text/css" media=screen>
+<link rel=StyleSheet href="desktop.css" type="text/css" media=screen />
 </head>
 
 <body>
@@ -18,30 +18,32 @@
 	<nav class="navbar">
 		<!-- Links for admin, requests, Queue, etc. -->
 		<a class="navbar" href="requests.html">Requests</a>
-		<a class="navbar" href="mess.html">Messages</a>
-		<a class="navbar" href="admin.html">Admin</a>
+		<a class="navbar" href="mess.php">Messages</a>
+		<a class="navbar" href="queue.php">Tweet Queue</a>
+		<a class="navbar" href="admin.php">Admin</a>
 	</nav>
-	<h1>This is the Super User home page, this H1 will not show outside of this demo HTML5.</h1>
-	<div class="tweetInput">
-		<form>
-			<textarea rows="10" cols="30" name="tweet" placeholder="Enter Tweet here." required></textarea>
-			<input type="submit" value="Tweet" />
-			<input type="submit" value="Tweet Later" />
-		</form>
-	</div>
-	<div class="company_feed">
-		<!-- this will be on the right hand side, one tweet wide, top to bottom -->
-		<!-- This will only display recent tweets from the company -->
-		<h3>Company's Twitter feed here</h3>
-	</div>
-	<div id="public_feed">
-		<!-- Displayed as is on regular twitter site, this can be narrowed down by who tweeted it, when, date range, etc. -->
-		<a href="startEndDate.html">Start Date</a>
-		<a href="startEndDate.html">End Date</a>
-		<a href="byUser.html">By User</a>
-		<h3>Full Custom Twitter feed here</h3>
-	</div>
-	
+	<section id="content">
+		<h1>This is the Super User home page, this H1 will not show outside of this demo HTML5.</h1>
+		<div class="tweetInput">
+			<form>
+				<textarea rows="10" cols="30" name="tweet" placeholder="Enter Tweet here." required></textarea>
+				<input type="submit" value="Tweet" />
+				<input type="submit" value="Tweet Later" />
+			</form>
+		</div>
+		<div class="company_feed">
+			<!-- this will be on the right hand side, one tweet wide, top to bottom -->
+			<!-- This will only display recent tweets from the company -->
+			<h3>Company's Twitter feed here</h3>
+		</div>
+		<div id="public_feed">
+			<!-- Displayed as is on regular twitter site, this can be narrowed down by who tweeted it, when, date range, etc. -->
+			<a href="startEndDate.html">Start Date</a>
+			<a href="startEndDate.html">End Date</a>
+			<a href="byUser.html">By User</a>
+			<h3>Full Custom Twitter feed here</h3>
+		</div>
+	</section>
 <!-- ############################################## -->
 <!-- ############################################## -->
 	
