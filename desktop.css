@@ -57,3 +57,9 @@ a.navbar:visited{
 	float: right;
 	margin-top: -200px;
 }
+a.cust:link{
+	color:white;
+}
+a.cust:visited{
+	color:white;
+}
